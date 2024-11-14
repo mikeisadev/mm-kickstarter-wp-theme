@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* HTML / BODY css */
+html, body {
+    @apply w-full h-full;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* CSS settings */
+.container {
+    @apply w-full h-full flex flex-col m-0 p-0;
+}
+
+.container-wrap {
+    @apply flex flex-col justify-center items-center p-4 gap-2;
+}
+
+.title {
+    @apply text-slate-900 text-2xl text-center font-medium;
+}
+
+.text {
+    @apply text-slate-900 text-base text-center;
+}
+
+.text-wrap {
+    @apply w-[60%];
+}
